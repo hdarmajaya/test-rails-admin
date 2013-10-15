@@ -1,0 +1,23 @@
+# == Schema Information
+#
+# Table name: states
+#
+#  id         :integer          not null, primary key
+#  abbrev     :string(255)
+#  name       :string(255)
+#  population :integer
+#  created_at :datetime         not null
+#  updated_at :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  abbrev: MyString
+  name: MyString
+  population: 1
+
+two:
+  abbrev: MyString
+  name: MyString
+  population: 1
